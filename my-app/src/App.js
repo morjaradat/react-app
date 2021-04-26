@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './componet/header';
 import Main from './componet/main';
 import Footer from './componet/footer';
@@ -9,6 +10,7 @@ render(){
 <Header/>
 <Main/>
 <Footer/>
+
   </div>
   )
 };
