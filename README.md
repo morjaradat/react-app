@@ -20,4 +20,28 @@ Start time: _____ 11 pm
 
 Finish time: _____2 am
 
-Actual time needed to complete: _____3
+Actual time needed to complete: _____3 hours
+
+
+## Feature #2: Allow users to vote for their favorite beast
+
+Number and name of feature: _______Feature #2: Allow users to vote for their favorite beast__________
+
+Estimate of time needed to complete: ____ 5 min_____
+
+Start time: _____ 1:45 am
+
+Finish time: _____1:50 am
+
+Actual time needed to complete: _____5min 
+
+## Feature 3: Bootstrap
+Number and name of feature: _______Feature 3: Bootstrap__________
+
+Estimate of time needed to complete: ____ 10 min_____
+
+Start time: _____ 1:50 am
+
+Finish time: _____2 am
+
+Actual time needed to complete: _____10min 
