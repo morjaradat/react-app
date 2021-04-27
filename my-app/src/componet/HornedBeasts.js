@@ -34,11 +34,18 @@ class HornedBeasts extends React.Component {
     )
   };
 }
-// //--
+// //-
 // {/* <h2>{this.props.title}</h2>
 // <p>{this.props.description}</p>
 // <p>{this.state.numberOfPats}</p>
 // <img onClick={this.increaseNumberOfPats} src={this.props.src} alt={this.props.title} title={this.props.title} /> */}
 // //
+
+
+{/* <h2>{this.props.title}</h2>
+<p>{this.props.description}</p>
+<p>{this.state.numberOfPats}</p>
+<img onClick={this.increaseNumberOfPats} src={this.props.src} alt={this.props.title} title={this.props.title} /> */}
+
 
 export default HornedBeasts;
