@@ -27,7 +27,7 @@ class HornedBeasts extends React.Component {
             <Card.Text>
               {this.state.numberOfPats}
             </Card.Text>
-            <Button onClick={this.increaseNumberOfPats} variant="primary">Click to incrase the number</Button>
+            <Button onClick={this.increaseNumberOfPats} variant="primary">Click to increase the number</Button>
           </Card.Body>
         </Card>
       </div>
