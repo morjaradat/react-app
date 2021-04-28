@@ -14,7 +14,7 @@ class HornedBeasts extends React.Component {
   increaseNumberOfPats = () => {
   
      this.setState({ numberOfPats: this.state.numberOfPats + 1 });
-     console.log(this.props);
+    //  console.log(this.props);
      this.props.viewbeast(this.props);
      
   }
