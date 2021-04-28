@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
+
 
 class HornedBeasts extends React.Component {
   constructor(props) {
@@ -12,14 +12,20 @@ class HornedBeasts extends React.Component {
 
   }
   increaseNumberOfPats = () => {
-    this.setState({ numberOfPats: this.state.numberOfPats + 1 })
+  
+     this.setState({ numberOfPats: this.state.numberOfPats + 1 });
+     console.log(this.props);
+     this.props.viewbeast(this.props);
+     
   }
   render() {
+    // console.log(this.props);
     return (
       <div>
         <Card style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={this.props.src} alt={this.props.title} title={this.props.title} />
-          <Card.Body>
+          <Card.Img variant="top" 
+            onClick={this.increaseNumberOfPats}  src={this.props.src} alt={this.props.title} title={this.props.title} />
+          <Card.Body >
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>
               {this.props.description}
@@ -27,9 +33,9 @@ class HornedBeasts extends React.Component {
             <Card.Text>
               {this.state.numberOfPats}
             </Card.Text>
-            <Button onClick={this.increaseNumberOfPats} variant="primary">Click to increase the number</Button>
           </Card.Body>
         </Card>
+        
       </div>
     )
   };
